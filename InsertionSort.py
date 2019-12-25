@@ -1,7 +1,9 @@
-#Insertion Sort
+#Insertion Sort 
+
 
 def InsertionSort(L):
     listLength = len(L)
+    # use 2 loops to iterate through the list
     for i in range(1,listLength):
         key = L[i]
         j = i -1
